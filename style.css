@@ -1,0 +1,11 @@
+.navbar{
+    background-color: burlywood;
+    padding: 6px;
+    justify-content: space-between;
+}
+.navtext{
+    display: inline-flex;
+    text-shadow: 2px;
+    color: rgb(15, 14, 12);
+    gap: 20px;
+}
