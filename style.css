@@ -1,11 +1,12 @@
 *{
-    background-color:rgb(19, 19, 73)
+    background-color:rgb(26, 26, 107)
 }
 .navbar{
     display: flex;
     background-color: rgb(220, 210, 197);
     padding: 4px;
     justify-content: space-between;
+    box-shadow: 6px 2px 5px black;
 }
 button:hover{
     background-color: rgb(168, 139, 194);
@@ -24,7 +25,6 @@ button:hover{
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(168, 139, 194);
     color: brown;
 }
 .welcomeandlogout{
@@ -40,7 +40,6 @@ button:hover{
 .wel{
     text-align: center;
     color: rgb(247, 164, 222);
-    text-shadow: 300px;
     text-shadow: 2px 2px 5px black;
     font-family: cursive;
 }
