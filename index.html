@@ -7,17 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-
+    <div class="navbar" id="nav">
         <div class="logo">
         <img src="logo.jpg" alt="logo" width="50px">
         </div>
-
         <div class="navtext">
-        <button style="background-color: rgb(220, 210, 197);">Sign Up</p>
-        <button style="background-color: rgb(220, 210, 197);">Login</p>
+        <button onclick="LoginSignup()" style="background-color: rgb(220, 210, 197);" id="sign-up" class="hidden">Sign Up</p>
+        <button onclick="LoginSignup()" style="background-color: rgb(220, 210, 197);" id="Login" class="hidden">Login</p>
         </div>
     </div>
+    <div class="welcomeandlogout"id="Welcome"style ="display: none;">
+        <h1 class="wel">Welcome to Alisha's Work</h1>
+        <button onclick="shownavbar()" class="out">Logout</p>
+    </div>
 
+    <script>
+        function hidenavbar(){
+            document.getElementById("nav").style.display = "none";
+        }
+        function LoginSignup(){
+            document.getElementById("nav").style.display = "none";
+            document.getElementById("Login").style.display = "none";
+            document.getElementById("sign-up").style.display = "none";
+            document.getElementById("Welcome").style.display = "block";
+        }
+        function shownavbar(){
+            document.getElementById("nav").style.display = "flex";
+            document.getElementById("Login").style.display = "";
+            document.getElementById("sign-up").style.display = "";
+            document.getElementById("Welcome").style.display = "none";
+        }
+    </script>
 </body>
 </html>
