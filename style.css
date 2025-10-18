@@ -1,11 +1,17 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(19, 19, 73)
+}
 .navbar{
-    background-color: burlywood;
-    padding: 6px;
+    display: flex;
+    background-color: rgb(220, 210, 197);
+    padding: 4px;
     justify-content: space-between;
 }
 .navtext{
     display: inline-flex;
-    text-shadow: 2px;
+    background-color: rgb(220, 210, 197);
+    text-shadow: 20px;
     color: rgb(15, 14, 12);
     gap: 20px;
 }
